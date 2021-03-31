@@ -7,3 +7,5 @@ class MobileNet(nn.Module):
     
     def forward(self, x):
         print('do forward')
+
+model = MobileNet(1,1)
